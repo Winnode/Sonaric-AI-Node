@@ -31,6 +31,11 @@ sudo apt upgrade sonaric
 ```
 
 ```
+wget https://raw.githubusercontent.com/Winnode/Sonaric-AI-Node/main/linux-install-sonaric.sh chmod +x linux-install-sonaric.sh && ./linux-install-sonaric.sh
+
+```
+
+```
 ssh -L 127.0.0.1:44003:127.0.0.1:44003 -L 127.0.0.1:44004:127.0.0.1:44004 -L 127.0.0.1:44005:127.0.0.1:44005 -L 127.0.0.1:44006:127.0.0.1:44006 root@<ip_vps>
 ```
 
@@ -46,14 +51,9 @@ Input Your Pass VPS
 ## save YourNode Identity
 
 ```
-cat  Winnode.identity
+cat  YourNode.identity
 ```
 
-
-```
-wget https://raw.githubusercontent.com/Winnode/Sonaric-AI-Node/main/linux-install-sonaric.sh chmod +x linux-install-sonaric.sh && ./linux-install-sonaric.sh
-
-```
 ## Check Succes Install
 
 ```
